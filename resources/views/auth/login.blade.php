@@ -32,7 +32,7 @@
                                     <a href="{{ route('dashboard') }}"
                                         class="navbar-brand d-flex align-items-center mb-3">
                                         <!--Logo start-->
-                                        <img src="{{ asset('assets/images/logo.svg') }}" class="sidebar-color-logo  ">
+                                        <img src="{{ asset('public/assets/images/logo.svg') }}" class="sidebar-color-logo  ">
                                         <!--logo End-->
                                         <h3 class="logo-title ms-2 text-primary">Proprio Direct</h3>
                                     </a>
@@ -91,7 +91,7 @@
                 </div>
                 <div
                     class="col-md-6 d-flex d-md-block d-none  justify-content-center bg-soft-secondary p-0 mt-n1 vh-100">
-                    <img src="{{ asset('assets/images/auth/01.png') }}" class="img-fluid" alt="images">
+                    <img src="{{ asset('public/assets/images/auth/01.png') }}" class="img-fluid" alt="images">
                 </div>
             </div>
         </section>
