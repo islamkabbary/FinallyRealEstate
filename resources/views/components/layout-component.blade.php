@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Proprio Direct</title>
-    <link rel="shortcut icon" href="{{ asset('images/logo.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('public/images/logo.png') }}" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/css">
         @font-face {
@@ -307,7 +307,7 @@
                         <a href="{{ route('lang', ['lang' => 'en']) }}" class="flex sm:gap-3 gap-1 relative z-[999]">
                             <span class="text-white lg:text-[24px] md:text-[21px] text-[16px]">En</span>
                             <img class="md:w-[28px] md:h-[20px] w-[16px] h-[16px] md:mt-2 mt-1.5"
-                                src="{{ asset('images/en.png') }}">
+                                src="{{ asset('public/images/en.png') }}">
                         </a>
                     @elseif (app()->getLocale() == 'en')
                         <a href="{{ route('lang', ['lang' => 'fr']) }}" class="flex sm:gap-3 gap-1 relative z-[999]">

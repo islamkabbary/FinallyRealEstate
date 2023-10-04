@@ -108,11 +108,11 @@
         <div class="lg:col-span-5 hidden lg:grid lg:mt-0 mt-5 my-14">
             <div class="relative z-10 xl:ml-[163px] lg:ml-[40px]">
                 <div class="xl:w-[387px] xl:h-[387px] lg:w-[287px] h-[287px] xl:ml-0 lg:ml-[70px] xl:mt-0 lg:mt-[30px]">
-                    <img class="w-full h-full" src="{{ asset('images/form-back.png') }}">
+                    <img class="w-full h-full" src="{{ asset('public/images/form-back.png') }}">
                 </div>
                 <div class="xl:w-[260px] xl:h-[260px] lg:w-[160px] h-[160px] xl:ml-0"><img
                         class="absolute z-30 xl:-left-[90px] xl:top-[260px] lg:top-[190px] lg:-left-[50px]"
-                        src="{{ asset('images/form-front.png') }}"></div>
+                        src="{{ asset('public/images/form-front.png') }}"></div>
             </div>
         </div>
     </div>
@@ -141,9 +141,9 @@
                             can provide you a<br>free estimate that reflects its market worth.</p>
                     </div>
                     <div class="flex justify-center gap-16 mb-[56px] my-8">
-                        <img class="w-[27px] h-[26px]" src="{{ asset('images/facebook.png') }}">
-                        <img class="w-[27px] h-[26px]" src="{{ asset('images/instagram.png') }}">
-                        <img class="w-[27px] h-[26px]" src="{{ asset('images/linkedin.png') }}">
+                        <img class="w-[27px] h-[26px]" src="{{ asset('public/images/facebook.png') }}">
+                        <img class="w-[27px] h-[26px]" src="{{ asset('public/images/instagram.png') }}">
+                        <img class="w-[27px] h-[26px]" src="{{ asset('public/images/linkedin.png') }}">
                     </div>
                     <div class="flex justify-center mx-[457px] pb-[48px]">
                         <a href="/"> <button class="w-[199px] rounded-[3px] h-[48px] bg-[#06C09C] text-white">back
