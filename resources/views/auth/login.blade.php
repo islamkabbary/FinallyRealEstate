@@ -7,9 +7,9 @@
     <title>Proprio Direct</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/css/libs.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/tecdig.css') }}">
+    <link rel="shortcut icon" href="{{ asset('public/assets/images/favicon.ico') }}" />
+    <link rel="stylesheet" href="{{ asset('public/assets/css/libs.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/tecdig.css') }}">
 </head>
 
 <body class=" " data-bs-spy="scroll" data-bs-target="#elements-section" data-bs-offset="0" tabindex="0">
@@ -98,20 +98,20 @@
     </div>
 
     <!-- Backend Bundle JavaScript -->
-    <script src="{{ asset('assets/js/libs.min.js') }}"></script>
+    <script src="{{ asset('public/assets/js/libs.min.js') }}"></script>
     <!-- widgetchart JavaScript -->
-    <script src="{{ asset('assets/js/charts/widgetcharts.js') }}"></script>
+    <script src="{{ asset('public/assets/js/charts/widgetcharts.js') }}"></script>
     <!-- mapchart JavaScript -->
-    <script src="{{ asset('assets/js/charts/vectore-chart.js') }}"></script>
-    <script src="{{ asset('assets/js/charts/dashboard.js') }}"></script>
+    <script src="{{ asset('public/assets/js/charts/vectore-chart.js') }}"></script>
+    <script src="{{ asset('public/assets/js/charts/dashboard.js') }}"></script>
     <!-- fslightbox JavaScript -->
-    <script src="{{ asset('assets/js/fslightbox.js') }}"></script>
+    <script src="{{ asset('public/assets/js/fslightbox.js') }}"></script>
     <!-- settings JavaScript -->
-    <script src="{{ asset('assets/js/setting.js') }}"></script>
+    <script src="{{ asset('public/assets/js/setting.js') }}"></script>
     <!-- Form Wizard Script -->
-    <script src="{{ asset('assets/js/form-wizard.js') }}"></script>
+    <script src="{{ asset('public/assets/js/form-wizard.js') }}"></script>
     <!-- app JavaScript -->
-    <script src="{{ asset('assets/js/app.js') }}"></script>
+    <script src="{{ asset('public/assets/js/app.js') }}"></script>
 
 </body>
 
