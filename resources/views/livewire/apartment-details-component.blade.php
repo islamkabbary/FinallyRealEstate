@@ -116,7 +116,7 @@
             </div>
         </div>
     </div>
-    {{-- @if ($openModel) --}}
+    @if ($openModel)
         <div class="w-full h-full">
             <div id="defaultModal" tabindex="-1" aria-hidden="true" wire:click="closeModel"
                 class="fixed mx-auto bg-black/50 top-0 left-0 right-0 z-50 xl:w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%)] max-h-full justify-center items-center flex">
@@ -154,5 +154,5 @@
                 </div>
             </div>
         </div>
-    {{-- @endif --}}
+    @endif
 </section>
