@@ -31,6 +31,7 @@ class ApartmentDetailsComponent extends Component
     }
     public function createDetails($data)
     {
+        dd($this->bedrooms);
         $this->validate();
         $apartmentDetails = new ApartmentDetails();
         $apartmentDetails->name = $this->name;

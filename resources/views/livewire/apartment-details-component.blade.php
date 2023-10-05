@@ -17,43 +17,43 @@
             <div class="lg:w-[93%] grid md:grid-cols-2 grid-cols-1 gap-x-5 mt-[30px] md:px-0 sm:px-10 px-5">
                 <div class="flex flex-col">
                     <label class="text-[#fff] text-[20px] font-[Calibri] font-[400] capitalize">Bedrooms</label>
-                    <select id="bedrooms"
+                    <select id="bedrooms" wire:model.defer="bedrooms"
                         class="mt-0.5 p-1 xl:h-[42px] h-[32px] bg-[#464646] border-[#464646] text-[#ffffff] placeholder-[#464646] hover:bg-[#464646] focus:bg-[#464646] focus:outline-none"
                         style="box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.09);">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>more than 5</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="more than 5">more than 5</option>
                     </select>
                 </div>
                 <div class="flex flex-col">
                     <label class="text-[#fff] text-[20px] font-[Calibri] font-[400] capitalize">Bathrooms</label>
-                    <select id="bathrooms"
+                    <select id="bathrooms" wire:model.defer="bathrooms"
                         class="mt-0.5 p-1 xl:h-[42px] h-[32px] bg-[#464646] border-[#464646] text-[#ffffff] placeholder-[#464646] hover:bg-[#464646] focus:bg-[#464646] focus:outline-none"
                         style="box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.09);">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>more than 5</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="more than 5">more than 5</option>
                     </select>
                 </div>
                 <div class="flex flex-col">
                     <label class="text-[#fff] text-[20px] font-[Calibri] font-[400] capitalize">Square
                         feet</label>
-                    <select id="square"
+                    <select id="square" wire:model.defer="square"
                         class="mt-0.5 p-1 xl:h-[42px] h-[32px] bg-[#464646] border-[#464646] text-[#ffffff] placeholder-[#464646] hover:bg-[#464646] focus:bg-[#464646] focus:outline-none"
                         style="box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.09);">
-                        <option>0-1000</option>
-                        <option>1000-2000</option>
-                        <option>2000-3000</option>
-                        <option>3000-4000</option>
-                        <option>4000-5000</option>
-                        <option>5000+</option>
-                        <option>not sure</option>
+                        <option value="0-1000">0-1000</option>
+                        <option value="1000-2000">1000-2000</option>
+                        <option value="2000-3000">2000-3000</option>
+                        <option value="3000-4000">3000-4000</option>
+                        <option value="4000-5000">4000-5000</option>
+                        <option value="5000+">5000+</option>
+                        <option value="not sure">not sure</option>
                     </select>
                 </div>
                 <div class="flex flex-col">
@@ -61,7 +61,7 @@
                         name</label>
                     <input
                         class="@error('name') border-[#E51937] @enderror text-[#ffffff] mt-0.5 xl:h-[42px] h-[32px] bg-[#464646] rounded-[3px] !focus:border-[#2F2F2F] !ring-0 border-transparent"
-                        type="text" wire:model.defer="name"
+                        type="text" wire:model="name"
                         style="box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.09);" />
                     @error('name')
                         <span class="text-[#E51937]">{{ $message }}</span>
@@ -72,7 +72,7 @@
                         email</label>
                     <input
                         class="@error('email') border-[#E51937] @enderror text-[#ffffff] mt-0.5 xl:h-[42px] h-[32px] bg-[#464646] rounded-[3px] !focus:border-[#2F2F2F] !ring-0 border-transparent"
-                        type="text" wire:model.defer="email"
+                        type="text" wire:model="email"
                         style="box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.09);" />
                     @error('email')
                         <span class="text-[#E51937]">{{ $message }}</span>
@@ -83,7 +83,7 @@
                         number</label>
                     <input
                         class="@error('phone') border-[#E51937] @enderror text-[#ffffff] mt-0.5 xl:h-[42px] h-[32px] bg-[#464646] rounded-[3px] !focus:border-[#2F2F2F] !ring-0 border-transparent"
-                        type="text" wire:model.defer="phone"
+                        type="text" wire:model="phone"
                         style="box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.09);" />
                     @error('phone')
                         <span class="text-[#E51937]">{{ $message }}</span>
