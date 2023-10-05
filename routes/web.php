@@ -16,6 +16,7 @@ use App\Http\Controllers\ApartmentDetailsController;
 |
 */
 Auth::routes();
+Route::get('logs', [\Rap2hpoutre\LaravelLogViewer\LogViewerController::class, 'index']);
 Route::middleware(['lang'])->group(function () {
     Route::get('/lang/{lang}', function ($lang) {
         Session::put('locale', $lang);
