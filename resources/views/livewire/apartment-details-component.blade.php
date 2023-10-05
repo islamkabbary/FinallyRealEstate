@@ -116,37 +116,37 @@
             </div>
         </div>
     </div>
-    @if ($openModel)
+    {{-- @if ($openModel) --}}
         <div class="w-full h-full">
             <div id="defaultModal" tabindex="-1" aria-hidden="true" wire:click="closeModel"
-                class="fixed bg-black/50 top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%)] max-h-full justify-center items-center flex">
-                <div class="relative rounded-lg shadow dark:bg-gray-700"
+                class="fixed mx-auto bg-black/50 top-0 left-0 right-0 z-50 xl:w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%)] max-h-full justify-center items-center flex">
+                <div class="relative rounded-lg shadow dark:bg-gray-700 w-[90%] lg:h-[80%] md:h-[70%] sm:h-[55%] xs:h-[60%] xss:h-[67%]"
                     style="background: rgba( 47, 47, 47, 0.65 );box-shadow: 0 8px 32px 0 rgba( 47, 47, 47, 0.37 );backdrop-filter: blur( 13px );-webkit-backdrop-filter: blur( 13px );border-radius: 20px;">
                     <!-- Modal header -->
-                    <div class="flex items-start justify-center p-4">
-                        <p class="text-[48px] font-[Butler] text-white capitalize">thank you</p>
+                    <div class="flex items-start justify-center md:p-4 p-2">
+                        <p class="md:text-[48px] md:text-[36px] text-[24px]  font-[Butler] text-white capitalize">thank you</p>
                     </div>
                     <!-- Modal body -->
-                    <div class="p-6 space-y-6">
-                        <p class="text-center text-[#ffffff] opaicty-75 text-[18px] font-[Calibri] normal-case"
+                    <div class="md:p-6 md:space-y-6 p-2 space-y-2">
+                        <p class="text-center text-[#ffffff] opaicty-75 md:text-[18px] text-[14px] font-[Calibri] normal-case"
                             style="color: rgba(255, 255, 255, 0.75);">You'll quickly
                             get a
                             precise appraisal of your property's worth. One of our knowledgeable real
                             estate<br>agents will calculate your estimate with care.</p>
-                        <p class="text-center text-[#ffffff] opaicty-75 text-[18px] font-[Calibri] normal-case"
+                        <p class="text-center text-[#ffffff] opaicty-75 md:text-[18px] text-[16px] font-[Calibri] normal-case"
                             style="color: rgba(255, 255, 255, 0.75);">
 
                             The latter will get in touch with you to ask for more details about your home so
                             they
                             can provide you a<br>free estimate that reflects its market worth.</p>
                     </div>
-                    <div class="flex justify-center gap-16 mb-[56px] my-8">
-                        <img class="w-[27px] h-[26px]" src="{{ asset('images/facebook.png') }}">
-                        <img class="w-[27px] h-[26px]" src="{{ asset('images/instagram.png') }}">
-                        <img class="w-[27px] h-[26px]" src="{{ asset('images/linkedin.png') }}">
+                    <div class="flex justify-center md:gap-16 gap-10 md:mb-[56px] mb-5 md:my-8 my-2">
+                        <img class="md:w-[27px] w-[20px] md:h-[26px] h-[20px]" src="{{ asset('images/facebook.png') }}">
+                        <img class="md:w-[27px] w-[20px] md:h-[26px] h-[20px]" src="{{ asset('images/instagram.png') }}">
+                        <img class="md:w-[27px] w-[20px] md:h-[26px] h-[20px]" src="{{ asset('images/linkedin.png') }}">
                     </div>
-                    <div class="flex justify-center mx-[457px] pb-[48px]">
-                        <a href="/"> <button class="w-[199px] rounded-[3px] h-[48px] bg-[#06C09C] text-white">back
+                    <div class="flex justify-center mx-auto pb-[48px]">
+                        <a href="/"> <button class="md:w-[199px] w-[150px] rounded-[3px] md:h-[48px] h-[35px] bg-[#06C09C] text-white">back
                                 to
                                 home</button>
                         </a>
@@ -154,5 +154,5 @@
                 </div>
             </div>
         </div>
-    @endif
+    {{-- @endif --}}
 </section>
