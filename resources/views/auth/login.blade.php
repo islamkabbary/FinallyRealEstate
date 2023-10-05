@@ -7,9 +7,9 @@
     <title>Proprio Direct</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('public/assets/images/favicon.ico') }}" />
-    <link rel="stylesheet" href="{{ asset('public/assets/css/libs.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/assets/css/tecdig.css') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/libs.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/tecdig.css') }}">
 </head>
 
 <body class=" " data-bs-spy="scroll" data-bs-target="#elements-section" data-bs-offset="0" tabindex="0">
@@ -32,7 +32,7 @@
                                     <a href="{{ route('dashboard') }}"
                                         class="navbar-brand d-flex align-items-center mb-3">
                                         <!--Logo start-->
-                                        <img src="{{ asset('public/assets/images/logo.svg') }}" class="sidebar-color-logo  ">
+                                        <img src="{{ asset('assets/images/logo.svg') }}" class="sidebar-color-logo  ">
                                         <!--logo End-->
                                         <h3 class="logo-title ms-2 text-primary">Proprio Direct</h3>
                                     </a>
@@ -91,27 +91,27 @@
                 </div>
                 <div
                     class="col-md-6 d-flex d-md-block d-none  justify-content-center bg-soft-secondary p-0 mt-n1 vh-100">
-                    <img src="{{ asset('public/assets/images/auth/01.png') }}" class="img-fluid" alt="images">
+                    <img src="{{ asset('assets/images/auth/01.png') }}" class="img-fluid" alt="images">
                 </div>
             </div>
         </section>
     </div>
 
     <!-- Backend Bundle JavaScript -->
-    <script src="{{ asset('public/assets/js/libs.min.js') }}"></script>
+    <script src="{{ asset('assets/js/libs.min.js') }}"></script>
     <!-- widgetchart JavaScript -->
-    <script src="{{ asset('public/assets/js/charts/widgetcharts.js') }}"></script>
+    <script src="{{ asset('assets/js/charts/widgetcharts.js') }}"></script>
     <!-- mapchart JavaScript -->
-    <script src="{{ asset('public/assets/js/charts/vectore-chart.js') }}"></script>
-    <script src="{{ asset('public/assets/js/charts/dashboard.js') }}"></script>
+    <script src="{{ asset('assets/js/charts/vectore-chart.js') }}"></script>
+    <script src="{{ asset('assets/js/charts/dashboard.js') }}"></script>
     <!-- fslightbox JavaScript -->
-    <script src="{{ asset('public/assets/js/fslightbox.js') }}"></script>
+    <script src="{{ asset('assets/js/fslightbox.js') }}"></script>
     <!-- settings JavaScript -->
-    <script src="{{ asset('public/assets/js/setting.js') }}"></script>
+    <script src="{{ asset('assets/js/setting.js') }}"></script>
     <!-- Form Wizard Script -->
-    <script src="{{ asset('public/assets/js/form-wizard.js') }}"></script>
+    <script src="{{ asset('assets/js/form-wizard.js') }}"></script>
     <!-- app JavaScript -->
-    <script src="{{ asset('public/assets/js/app.js') }}"></script>
+    <script src="{{ asset('assets/js/app.js') }}"></script>
 
 </body>
 
