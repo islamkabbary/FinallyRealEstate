@@ -172,7 +172,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex md:gap-5 xss:gap-2 sm:mt-[2rem] xs:mt-[2.1rem] xss:mt-[3rem]">
+                    <div class="flex md:gap-5 xss:gap-2 xs:mt-[2rem] xss:mt-[2rem]">
                         <div class="md:w-12 xss:w-12 xss:w-8 mt-3 xss:mt-[1.4rem]">
                             <img src="{{ asset('images/groupLap.png') }}">
                         </div>
