@@ -92,21 +92,21 @@
                 </div>
                 <div class="flex mt-3 justify-between ml-[68px] mr-[60px]">
                     <div class="flex lg:flex-col justify-center items-center">
-                        <img src="{{ asset('images/placeholderLap.png') }}">
+                        <img src="{{ asset('images/placeholderLap.png') }}" class="xl:w-auto lg:w-[50px]">
                         <p class="text-[#fff] text-[24px] capitalize">choose the location</p>
                         <p class='text-[14px] capitalize text-center' style="color: rgba(255, 255, 255, 0.55)">
                             Help us serve you better by sharing the<br>location of your current house.
                         </p>
                     </div>
-                    <div class="flex lg:flex-col justify-center items-center md:ml-5">
-                        <img src="{{ asset('images/formLap.png') }}">
+                    <div class="flex lg:flex-col justify-center items-center md:ml-5 mt-2">
+                        <img src="{{ asset('images/formLap.png') }}" class="xl:w-auto lg:w-[50px]">
                         <p class="text-[#fff] text-[24px] capitalize">Write the specifications</p>
                         <p class='text-[14px] capitalize text-center' style="color: rgba(255, 255, 255, 0.55)">
                             take a moment to provide us with details<br>about your home's features, layout, and <br>any specific attributes that make it special.
                         </p>
                     </div>
                     <div class="flex lg:flex-col justify-center items-center">
-                        <img src="{{ asset('images/groupLap.png') }}">
+                        <img src="{{ asset('images/groupLap.png') }}" class="xl:w-auto lg:w-[50px]">
                         <p class="text-[#fff] text-[24px] capitalize">sell with the best</p>
                         <p class='text-[14px] capitalize text-center' style="color: rgba(255, 255, 255, 0.55)">
                             Our dedicated team goes the extra mile to<br>ensure your selling journey is seamless,<br>transparent, and highly rewarding.
@@ -172,7 +172,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex md:gap-5 xss:gap-2 xs:mt-[2rem] xss:mt-[2rem]">
+                    <div class="flex md:gap-5 xss:gap-2 xs:mt-[1.2rem] xss:mt-10">
                         <div class="md:w-12 xss:w-12 xss:w-8 mt-3 xss:mt-[1.4rem]">
                             <img src="{{ asset('images/groupLap.png') }}">
                         </div>
