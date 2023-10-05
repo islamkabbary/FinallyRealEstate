@@ -165,11 +165,10 @@
                             <img src="{{ asset('images/formLap.png') }}">
                         </div>
                         <div class="flex flex-col mt-[20px]">
-                            <p class="text-[#fff] md:text-[24px] xs:text-[18px] xss:text-[16px] capitalize">choose the
-                                location</p>
+                            <p class="text-[#fff] md:text-[24px] xs:text-[18px] xss:text-[16px] capitalize">Write The Specifications</p>
                             <p class='md:text-[16px] xs:text-[12px] text-[8px] capitalize'
                                 style="color: rgba(255, 255, 255, 0.55)">
-                                Help us serve you better by sharing the<br>location of your current house.
+                                Take A Moment To Provide Us With Details<br>About Your Home's Features, Layout, And<br>Any Specific Attributes That Make It Special.
                             </p>
                         </div>
                     </div>
@@ -178,12 +177,10 @@
                             <img src="{{ asset('images/groupLap.png') }}">
                         </div>
                         <div class="flex flex-col mt-2">
-                            <p class="text-[#fff] md:text-[24px] xs:text-[18px] xss:text-[16px] capitalize mt-[1rem]">
-                                choose the
-                                location</p>
+                            <p class="text-[#fff] md:text-[24px] xs:text-[18px] xss:text-[16px] capitalize mt-[1rem]">Sell With The Best</p>
                             <p class='md:text-[16px] xs:text-[12px] text-[8px] capitalize'
                                 style="color: rgba(255, 255, 255, 0.55)">
-                                Help us serve you better by sharing the<br>location of your current house.
+                                Our Dedicated Team Goes The Extra Mile To<br>Ensure Your Selling Journey Is Seamless,<br>Transparent, And Highly Rewarding.
                             </p>
                         </div>
                     </div>
